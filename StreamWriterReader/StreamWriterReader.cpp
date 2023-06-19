@@ -42,4 +42,7 @@ int main() {
 		//Tutup file jika selesai
 		infile.close();
 	}
+	//Jika file tidak ditemukan maka akan menampilkan ini.
+	else cout << "Unable to open file";
+	
 }
