@@ -27,5 +27,7 @@ int main() {
 
 	//Membuka file hanya untuk dibaca
 	ifstream infile;
+	//Menunjuk ke sebuah file
+	infile.open("Contohfile.txt");
 	
 }
