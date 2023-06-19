@@ -24,5 +24,8 @@ int main() {
 	}
 	//Selesai menulis dan menutup file
 	outfile.close();
+
+	//Membuka file hanya untuk dibaca
+	ifstream infile;
 	
 }
