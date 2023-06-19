@@ -34,6 +34,12 @@ int main() {
 	//Jika file ada maka
 	if (infile.is_open()) {
 		//Melakukan perulangan setiap baris
-		while (getline(infile, baris)){}
+		while (getline(infile, baris))
+		{
+			//Dan tampilkan disini
+			cout << baris << '\n';
+		}
+		//Tutup file jika selesai
+		infile.close();
 	}
 }
